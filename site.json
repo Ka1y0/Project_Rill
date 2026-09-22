@@ -1,0 +1,17 @@
+{
+  "product": "Rill",
+  "edition": "2026-09-22.1",
+  "base_url": "https://ka1y0.github.io/Project_Rill/",
+  "languages": [
+    "en",
+    "zh-Hans",
+    "zh-Hant"
+  ],
+  "pages": {
+    "index": {
+      "en": "Content/en/index.md",
+      "zh-Hans": "Content/zh-Hans/index.md",
+      "zh-Hant": "Content/zh-Hant/index.md"
+    }
+  }
+}
