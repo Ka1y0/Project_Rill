@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="referrer" content="no-referrer">
+<meta name="site-edition" content="2026-10-05.1">
+<title>Privacy · Rill · Chips Studio</title>
+<link rel="canonical" href="https://ka1y0.github.io/Project_Rill/privacy.html">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<div class="shell">
+<header><a class="brand" href="index.html">Chips Studio <span>/ Rill</span></a>
+<nav class="languages" aria-label="Languages"><a lang="en" hreflang="en" href="privacy.html" aria-current="page">English</a><a lang="zh-Hans" hreflang="zh-Hans" href="zh-Hans/privacy.html">简体中文</a><a lang="zh-Hant" hreflang="zh-Hant" href="zh-Hant/privacy.html">繁體中文</a></nav></header>
+<nav class="pages" aria-label="Rill"><a href="index.html">Home</a><a href="privacy.html" aria-current="page">Privacy</a><a href="support.html">Support</a><a href="terms.html">Terms</a><a href="ai-services.html">AI services</a></nav>
+<main id="content" tabindex="-1"><article><h1>Rill Privacy Policy</h1>
+<p>Effective: October 5, 2026. Publisher: Kuiyu Fu / Chips Studio. This policy describes Rill 1.0 for iPhone and iPad.</p>
+<h2>Your device and your services</h2>
+<p>No Rill account is required. Rill does not operate an inference intermediary, advertising service or analytics backend. This does not mean no data leaves your device: the AI services you choose process your requests.</p>
+<p>API keys are stored in the local iOS Keychain, not in chat storage, search indexes or ordinary exports. Rill 1.0 does not enable iCloud Keychain credential sync or CloudKit chat sync. Existing on-device history is retained; iOS device backup remains governed by your system settings.</p>
+<p>Messages, branches, drafts, model identities, reactions, settings and attachments are stored locally. A private, rebuildable local search index accelerates search, is excluded from backup, and is not published to system Spotlight or synchronized through CloudKit.</p>
+<h2>When information is sent</h2>
+<p>Before your first inference request to a configured destination, Rill asks for permission to send chat content. Requests may include your current message, the complete applicable original active-branch history, its system prompt, relevant image/file attachments and protocol state needed by that model. Group participants receive their own applicable histories, not other participants’ answers by default. Rill does not silently shorten history or generate lossy summaries.</p>
+<p>Your key authenticates directly with that service. It also receives normal network information such as your IP address. Model-directory refresh sends authentication and configuration needed to list models, not chat text, drafts, system prompts or attachments. It can run on demand or opportunistically for eligible configured cloud services.</p>
+<p>OpenAI, Anthropic, Google Gemini, xAI and custom OpenAI-compatible endpoints are supported configuration paths. Terms, retention, training controls, account linkage and regional availability differ. A listed model does not guarantee inference access. Consult <a href="ai-services.html">AI services information</a> before sending sensitive content. Local endpoints remain within a device/network only if the endpoint itself does; Rill cannot control a third-party server’s onward processing.</p>
+<p>Rill Demo is a deterministic on-device sample. It sends no network requests, uses no key and does not analyze images.</p>
+<h2>Permissions and optional features</h2>
+<p>Camera access is requested only when you take an attachment photo. System photo/document pickers provide only selected items; Rill does not scan your photo library. Local network access is used for addresses you configure. New-model system notifications are off by default, enabled only by your choice, and contain no chat text or keys.</p>
+<p>Read Aloud, voice input and executable HTML previews are not enabled in Rill 1.0. Markdown, tables and code remain display content; generated HTML is not executed. Rill includes no tracking or advertising SDK and does not request tracking authorization.</p>
+<h2>Retention and control</h2>
+<p>Local history stays until you delete it or remove the app. Deletion guards prevent late local work from restoring deleted chats; minimal deletion records may remain for integrity. Exports are separate files under your control. Local deletion cannot delete data already processed by a provider; use that provider’s controls and policy. Revoking destination permission in service settings blocks subsequent requests without erasing history or silently canceling existing requests.</p>
+<p>Rill does not upload diagnostic logs or conversations to its publisher. Apple may process app/device diagnostics under your system choices. Support email contains only information you voluntarily include; the publisher and email service receive it. Never send keys or private conversations unnecessarily.</p>
+<h2>Website and contact</h2>
+<p>This static website has no cookies, analytics scripts, forms or remote fonts. GitHub Pages handles hosting and security logs under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+<p>Privacy requests and support: <a href="mailto:hideinicloud@icloud.com">hideinicloud@icloud.com</a>. Policy changes will be dated here.</p></article></main>
+<footer><span>Chips Studio · Rill</span><span>Site edition 2026-10-05.1</span></footer>
+</div>
+</body>
+</html>

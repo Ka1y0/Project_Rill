@@ -1,6 +1,6 @@
 {
   "product": "Rill",
-  "edition": "2026-09-22.1",
+  "edition": "2026-10-05.1",
   "base_url": "https://ka1y0.github.io/Project_Rill/",
   "languages": [
     "en",
@@ -8,6 +8,10 @@
     "zh-Hant"
   ],
   "pages": {
+    "privacy": {"en":"Content/en/privacy.md","zh-Hans":"Content/zh-Hans/privacy.md","zh-Hant":"Content/zh-Hant/privacy.md"},
+    "support": {"en":"Content/en/support.md","zh-Hans":"Content/zh-Hans/support.md","zh-Hant":"Content/zh-Hant/support.md"},
+    "terms": {"en":"Content/en/terms.md","zh-Hans":"Content/zh-Hans/terms.md","zh-Hant":"Content/zh-Hant/terms.md"},
+    "ai-services": {"en":"Content/en/ai-services.md","zh-Hans":"Content/zh-Hans/ai-services.md","zh-Hant":"Content/zh-Hant/ai-services.md"},
     "index": {
       "en": "Content/en/index.md",
       "zh-Hans": "Content/zh-Hans/index.md",
