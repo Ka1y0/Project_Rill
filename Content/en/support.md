@@ -8,6 +8,6 @@ Open Models and choose a clearly labeled Rill Demo contact to try Rill without a
 
 Use Stop to cancel, Retry to try again, and Edit on an earlier prompt to create a branch. Chats search finds titles and messages, including archived chats and historical branches. If your service rejects the full applicable history, Rill does not silently shorten or retry it.
 
-Authentication, balance, availability and capabilities are controlled by your service. A listed model may not be callable on your plan. Rill 1.0 does not offer cross-device sync, voice or executable HTML preview.
+Authentication, balance, availability and capabilities are controlled by your service. A listed model may not be callable on your plan. Rill 1.0 and Rill 1.1 do not offer cross-device sync, voice or executable HTML preview.
 
 [Privacy Policy](privacy.html) · [AI services](ai-services.html)

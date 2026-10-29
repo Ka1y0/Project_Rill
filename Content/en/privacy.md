@@ -1,12 +1,14 @@
 # Rill Privacy Policy
 
-Effective: October 5, 2026. Publisher: Kuiyu Fu / Chips Studio. This policy describes Rill 1.0 for iPhone and iPad.
+Effective: October 5, 2026. Publisher: Kuiyu Fu / Chips Studio. This policy describes Rill 1.0 and Rill 1.1 for iPhone and iPad. Revised: October 29, 2026.
 
 ## Your device and your services
 
+Chips Studio does not receive chats, attachments or API keys through a Rill server. The App Store “Data Not Collected” declaration describes developer data collection; it does not mean all information remains on your device. External websites and services you open have their own data practices.
+
 No Rill account is required. Rill does not operate an inference intermediary, advertising service or analytics backend. This does not mean no data leaves your device: the AI services you choose process your requests.
 
-API keys are stored in the local iOS Keychain, not in chat storage, search indexes or ordinary exports. Rill 1.0 does not enable iCloud Keychain credential sync or CloudKit chat sync. Existing on-device history is retained; iOS device backup remains governed by your system settings.
+API keys are stored in the local iOS Keychain, not in chat storage, search indexes or ordinary exports. Rill 1.0 and Rill 1.1 do not enable iCloud Keychain credential sync or CloudKit chat sync. Existing on-device history is retained; iOS device backup remains governed by your system settings.
 
 Messages, branches, drafts, model identities, reactions, settings and attachments are stored locally. A private, rebuildable local search index accelerates search, is excluded from backup, and is not published to system Spotlight or synchronized through CloudKit.
 
@@ -24,7 +26,7 @@ Rill Demo is a deterministic on-device sample. It sends no network requests, use
 
 Camera access is requested only when you take an attachment photo. System photo/document pickers provide only selected items; Rill does not scan your photo library. Local network access is used for addresses you configure. New-model system notifications are off by default, enabled only by your choice, and contain no chat text or keys.
 
-Read Aloud, voice input and executable HTML previews are not enabled in Rill 1.0. Markdown, tables and code remain display content; generated HTML is not executed. Rill includes no tracking or advertising SDK and does not request tracking authorization.
+Read Aloud, voice input and executable HTML previews are not enabled in Rill 1.0 and Rill 1.1. Markdown, tables and code remain display content; generated HTML is not executed. Rill includes no tracking or advertising SDK and does not request tracking authorization.
 
 ## Retention and control
 

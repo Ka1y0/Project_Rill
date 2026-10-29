@@ -9,7 +9,7 @@ Rill 直接连接你配置的服务，不设置推理中转。你提供合法授
 - OpenAI：[隐私政策](https://openai.com/policies/privacy-policy/) · [API 协议](https://openai.com/policies/services-agreement/)。
 - Anthropic：[隐私政策](https://www.anthropic.com/legal/privacy) · [商业条款](https://www.anthropic.com/legal/commercial-terms)。
 - Google Gemini：[隐私政策](https://policies.google.com/privacy) · [API 条款](https://ai.google.dev/gemini-api/terms)。
-- xAI：[隐私政策](https://x.ai/legal/privacy-policy) · [API 条款](https://x.ai/legal/api-terms)。
+- xAI：[隐私政策](https://x.ai/legal/privacy-policy) · [企业/API 条款](https://x.ai/legal/terms-of-service-enterprise)。
 
 保留与训练规则因账户、方案、地区和设置而异。发送私人或受监管信息前，请阅读当前条款。目录结果不代表已验证权限、安全性或推理成功。
 
@@ -17,6 +17,6 @@ Rill 直接连接你配置的服务，不设置推理中转。你提供合法授
 
 OpenAI 兼容端点由你选择。请确认运营者、本地或远端地址、认证与隐私政策。明文 HTTP 没有传输加密。本地服务器本身也可能外传数据，Rill 无法承诺其不会这样做。
 
-Rill Demo 是明确标注的离线示例，无需密钥、不访问网络，不具有 AI 理解能力。Rill 1.0 关闭可执行 HTML 预览、语音和云同步。
+Rill Demo 是明确标注的离线示例，无需密钥、不访问网络，不具有 AI 理解能力。Rill 1.0 和 Rill 1.1 关闭可执行 HTML 预览、语音和云同步。
 
 [隐私政策](privacy.html) · [帮助与支持](support.html)

@@ -9,7 +9,7 @@ Chat requests may contain the current message, full applicable original branch h
 - OpenAI: [Privacy](https://openai.com/policies/privacy-policy/) · [API agreement](https://openai.com/policies/services-agreement/).
 - Anthropic: [Privacy](https://www.anthropic.com/legal/privacy) · [Commercial terms](https://www.anthropic.com/legal/commercial-terms).
 - Google Gemini: [Privacy](https://policies.google.com/privacy) · [API terms](https://ai.google.dev/gemini-api/terms).
-- xAI: [Privacy](https://x.ai/legal/privacy-policy) · [API terms](https://x.ai/legal/api-terms).
+- xAI: [Privacy](https://x.ai/legal/privacy-policy) · [Enterprise/API terms](https://x.ai/legal/terms-of-service-enterprise).
 
 Retention and training vary by account, plan, region and settings. Check current terms before sending private or regulated information. Directory listings do not certify access, safety or inference success.
 
@@ -17,6 +17,6 @@ Retention and training vary by account, plan, region and settings. Check current
 
 You choose OpenAI-compatible endpoints. Confirm the operator, local/remote address, authentication and privacy policy. Plain HTTP has no transport encryption. Local servers can themselves send data elsewhere; Rill cannot promise otherwise.
 
-Rill Demo is an explicitly labeled offline sample, without a key, network or AI understanding. Rill 1.0 disables executable HTML preview, voice and cloud sync.
+Rill Demo is an explicitly labeled offline sample, without a key, network or AI understanding. Rill 1.0 and Rill 1.1 disable executable HTML preview, voice and cloud sync.
 
 [Privacy](privacy.html) · [Support](support.html)
